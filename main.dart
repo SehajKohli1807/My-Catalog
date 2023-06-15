@@ -22,9 +22,8 @@ import 'package:flutter_application_1/project/product_pages/oneplus9_07.dart';
 import 'package:flutter_application_1/project/product_pages/SamsungS6_05.dart';
 import 'package:flutter_application_1/project/routes.dart';
 import 'package:flutter_application_1/project/welcome.dart';
-import 'package:flutter_application_1/project/product_pages/NoiseWatch_06.dart';
-
-import 'package:flutter_application_1/project/home.dart';
+import 'product_pages/NoiseWatch_06.dart';
+import 'home.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 void main() {
@@ -42,7 +41,6 @@ class MyApp extends StatelessWidget {
       routes: {
         MyRoutes.LoginRoute: (context) => const LoginPage(),
         MyRoutes.HomeRoute: (context) => const MyApp2(),
-        MyRoutes.DetailsRoute: (context) => const Object009(),
         MyRoutes.WelcomeRoute: (context) => const WelcomePage(),
         MyRoutes.ProfileRoute: (context) => const MyDetails(),
       },
